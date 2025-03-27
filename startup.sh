@@ -24,7 +24,8 @@ php /home/site/wwwroot/artisan cache:clear
 php /home/site/wwwroot/artisan config:clear
 php /home/site/wwwroot/artisan config:cache
 php /home/site/wwwroot/artisan route:clear
-php /home/site/wwwroot/artisan view:clear
+php /home/site/wwwroot/artisan l5-swagger:publish
+
 
 # Copy default Nginx configuration
 cp /home/site/wwwroot/default /etc/nginx/sites-available/default
